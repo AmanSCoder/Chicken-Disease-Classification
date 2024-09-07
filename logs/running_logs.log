@@ -278,3 +278,160 @@ x==========x]
 [2024-09-07 19:12:16,049:INFO:common:created directory at: artifacts]
 [2024-09-07 19:12:16,057:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
 [2024-09-07 19:12:16,057:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:36:51,475:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 19:36:51,479:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 19:36:51,479:INFO:common:created directory at: artifacts]
+[2024-09-07 19:36:51,479:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 19:36:51,479:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 19:36:51,487:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:41:52,054:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:41:52,054:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:41:52,065:INFO:common:created directory at: artifacts]
+[2024-09-07 22:41:52,065:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:41:52,065:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:41:52,065:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:44:51,491:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:44:51,491:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:44:51,491:INFO:common:created directory at: artifacts]
+[2024-09-07 22:44:51,491:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:44:51,499:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:44:51,499:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:44:51,769:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:46:42,272:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:46:42,275:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:46:42,275:INFO:common:created directory at: artifacts]
+[2024-09-07 22:46:42,275:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:46:42,282:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:46:42,283:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:46:42,522:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:47:14,059:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:47:14,059:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:47:14,074:INFO:common:created directory at: artifacts]
+[2024-09-07 22:47:14,074:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:47:14,074:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:47:14,078:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:47:14,276:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:49:24,276:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:49:24,284:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:49:24,284:INFO:common:created directory at: artifacts]
+[2024-09-07 22:49:24,284:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:49:24,284:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:49:24,292:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:49:24,461:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:50:27,977:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:50:27,977:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:50:27,989:INFO:common:created directory at: artifacts]
+[2024-09-07 22:50:27,990:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:50:27,990:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:50:27,993:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:50:28,258:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:53:07,132:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:53:07,133:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:53:07,133:INFO:common:created directory at: artifacts]
+[2024-09-07 22:53:07,133:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:53:07,139:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:53:07,140:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:53:07,334:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:53:46,941:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 22:57:20,231:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:57:20,231:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:57:20,238:INFO:common:created directory at: artifacts]
+[2024-09-07 22:57:20,238:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 22:57:20,658:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 22:57:20,806:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 22:57:52,835:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:57:52,835:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:57:52,835:INFO:common:created directory at: artifacts]
+[2024-09-07 22:57:52,835:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:57:52,843:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:57:52,844:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:57:53,012:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:58:52,555:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 22:58:52,555:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 22:58:52,555:INFO:common:created directory at: artifacts]
+[2024-09-07 22:58:52,555:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 22:58:52,555:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 22:58:52,555:INFO:common:created directory at: artifacts\training]
+[2024-09-07 22:58:52,740:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-09-07 22:59:32,301:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:01:55,320:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:01:55,320:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:01:55,320:INFO:common:created directory at: artifacts]
+[2024-09-07 23:01:55,320:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 23:01:55,660:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:02:39,758:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:02:39,758:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:02:39,758:INFO:common:created directory at: artifacts]
+[2024-09-07 23:02:39,758:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:02:39,764:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:02:39,765:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:03:13,653:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:03:13,653:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:03:13,661:INFO:common:created directory at: artifacts]
+[2024-09-07 23:03:13,661:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:03:13,665:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:03:13,665:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:03:22,573:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:04:03,093:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:04:37,785:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:04:37,785:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:04:37,785:INFO:common:created directory at: artifacts]
+[2024-09-07 23:04:37,785:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:04:37,785:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:04:37,797:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:25:58,683:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 23:25:58,688:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:25:58,693:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:25:58,693:INFO:common:created directory at: artifacts]
+[2024-09-07 23:25:58,693:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 23:26:21,813:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CDDD:193CB4:2CDAEA:37D265:66DC93AE
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 17:56:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10222-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1725731760.330460,VS0,VE938
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 71f6f099e20ad71eb942843728a5abdfc55aa81e
+Expires: Sat, 07 Sep 2024 18:01:01 GMT
+Source-Age: 1
+
+]
+[2024-09-07 23:26:22,043:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:26:22,043:INFO:main:***********************]
+[2024-09-07 23:26:22,043:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 23:26:22,054:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:26:22,057:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:26:22,058:INFO:common:created directory at: artifacts]
+[2024-09-07 23:26:22,058:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 23:26:22,453:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:26:22,863:INFO:main:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:26:22,863:INFO:main:*******************]
+[2024-09-07 23:26:22,863:INFO:main:>>>>>> stage Training started <<<<<<]
+[2024-09-07 23:26:22,863:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:26:22,863:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:26:22,863:INFO:common:created directory at: artifacts]
+[2024-09-07 23:26:22,873:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:26:22,873:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:26:22,874:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:27:06,274:INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
