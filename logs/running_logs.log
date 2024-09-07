@@ -592,3 +592,59 @@ x==========x]
 [2024-09-07 23:59:39,101:INFO:stage_04_evaluation:>>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-09-08 00:11:01,408:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.17.42.156:80]
+[2024-09-08 00:11:01,408:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 00:11:15,217:INFO:_internal:127.0.0.1 - - [08/Sep/2024 00:11:15] "GET / HTTP/1.1" 200 -]
+[2024-09-08 00:11:56,941:ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Project Codes\Chicken_Disease_Classification\app.py", line 41, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\project codes\chicken_disease_classification\src\cnnClassifier\pipeline\predict.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training", "model.h5"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\keras\src\saving\saving_api.py", line 194, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\h5py\_hl\files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\h5py\_hl\files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts\training\model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-09-08 00:11:56,948:INFO:_internal:127.0.0.1 - - [08/Sep/2024 00:11:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-09-08 00:13:14,176:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.17.42.156:80]
+[2024-09-08 00:13:14,176:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 00:13:19,625:INFO:_internal:127.0.0.1 - - [08/Sep/2024 00:13:19] "GET / HTTP/1.1" 200 -]
+[2024-09-08 00:13:24,834:INFO:_internal:127.0.0.1 - - [08/Sep/2024 00:13:24] "POST /predict HTTP/1.1" 200 -]
