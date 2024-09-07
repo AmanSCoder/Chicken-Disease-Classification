@@ -435,3 +435,75 @@ x==========x]
 [2024-09-07 23:27:06,274:INFO:main:>>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-09-07 23:34:54,594:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:34:54,596:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:34:54,597:INFO:common:created directory at: artifacts]
+[2024-09-07 23:35:20,190:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:35:20,191:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:35:20,192:INFO:common:created directory at: artifacts]
+[2024-09-07 23:35:28,002:INFO:common:json file saved at: scores.json]
+[2024-09-07 23:46:36,325:INFO:main:>>>>>>> stage Data Ingestion stage started <<<<<<<]
+[2024-09-07 23:46:36,327:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:46:36,328:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:46:36,329:INFO:common:created directory at: artifacts]
+[2024-09-07 23:46:36,329:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-09-07 23:47:00,285:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CDDD:193CB4:2CDAEA:37D265:66DC93AE
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 18:16:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10231-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725732998.629985,VS0,VE255
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c11f500a906f89c3dd4ddafc903294fa0d084bd2
+Expires: Sat, 07 Sep 2024 18:21:37 GMT
+Source-Age: 0
+
+]
+[2024-09-07 23:47:00,437:INFO:main:>>>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:47:00,437:INFO:main:***********************]
+[2024-09-07 23:47:00,437:INFO:main:>>>>>>> stage Prepare Base Model started <<<<<<<]
+[2024-09-07 23:47:00,439:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:47:00,440:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:47:00,440:INFO:common:created directory at: artifacts]
+[2024-09-07 23:47:00,440:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-09-07 23:47:00,722:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-09-07 23:47:01,121:INFO:main:>>>>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x]
+[2024-09-07 23:47:01,122:INFO:main:*******************]
+[2024-09-07 23:47:01,122:INFO:main:>>>>>> stage Training started <<<<<<]
+[2024-09-07 23:47:01,124:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:47:01,126:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:47:01,126:INFO:common:created directory at: artifacts]
+[2024-09-07 23:47:01,128:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-09-07 23:47:01,128:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-09-07 23:47:01,129:INFO:common:created directory at: artifacts\training]
+[2024-09-07 23:47:25,869:INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-09-07 23:47:25,869:INFO:main:*******************]
+[2024-09-07 23:47:25,870:INFO:main:>>>>>> stage Evaluation started <<<<<<]
+[2024-09-07 23:47:25,871:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-09-07 23:47:25,872:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-09-07 23:47:25,872:INFO:common:created directory at: artifacts]
+[2024-09-07 23:47:33,775:INFO:common:json file saved at: scores.json]
+[2024-09-07 23:47:33,777:INFO:main:>>>>>> stage Evaluation completed <<<<<<
+
+x==========x]
