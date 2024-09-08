@@ -663,3 +663,48 @@ FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open f
 [2024-09-08 17:56:39,629:INFO:_internal:172.17.42.156 - - [08/Sep/2024 17:56:39] "GET / HTTP/1.1" 200 -]
 [2024-09-08 17:56:44,406:INFO:_internal:127.0.0.1 - - [08/Sep/2024 17:56:44] "OPTIONS /predict HTTP/1.1" 200 -]
 [2024-09-08 17:56:45,108:INFO:_internal:127.0.0.1 - - [08/Sep/2024 17:56:45] "POST /predict HTTP/1.1" 200 -]
+[2024-09-08 19:28:30,328:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.42.156:8080]
+[2024-09-08 19:28:30,330:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-09-08 19:29:44,366:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:44] "GET / HTTP/1.1" 200 -]
+[2024-09-08 19:29:46,157:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:46] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-08 19:29:46,809:ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\Project Codes\Chicken_Disease_Classification\app.py", line 41, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\project codes\chicken_disease_classification\src\cnnClassifier\pipeline\predict.py", line 19, in predict
+    test_image = image.load_img(imagename, target_size = (224,224))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programs\Anaconda\envs\tensorflowenv\Lib\site-packages\PIL\Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002BB1147A9D0>
+[2024-09-08 19:29:46,816:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-09-08 19:29:50,444:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:50] "GET / HTTP/1.1" 200 -]
+[2024-09-08 19:29:55,264:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:55] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-08 19:29:55,930:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:29:55] "POST /predict HTTP/1.1" 200 -]
+[2024-09-08 19:30:24,852:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:30:24] "OPTIONS /predict HTTP/1.1" 200 -]
+[2024-09-08 19:30:25,486:INFO:_internal:127.0.0.1 - - [08/Sep/2024 19:30:25] "POST /predict HTTP/1.1" 200 -]
